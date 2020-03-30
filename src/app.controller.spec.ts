@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Test Microservice"', () => {
-      expect(appController.getHello()).toBe('Test Microservice');
+    it('should return "Test Microservice!"', () => {
+      expect(appController.getHello()).toBe('Test Microservice!');
     });
   });
 });
