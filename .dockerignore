@@ -3,6 +3,5 @@
 
 # include only what we need
 !src
-!test
 !*.json
 !*.lock
