@@ -1,0 +1,8 @@
+# Ignore everything by default
+*
+
+# include only what we need
+!src
+!test
+!*.json
+!*.lock
