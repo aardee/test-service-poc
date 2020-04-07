@@ -2,8 +2,8 @@ import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class AppService {
-  getHello(): string {
-    return 'Test Microservice!';
+  health(): string {
+    return 'Test Microservice is working!!!';
   }
 
   getHelloWithName(name: string): string {
