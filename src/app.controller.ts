@@ -18,4 +18,13 @@ export class AppController {
   getHelloWithName(@Param('name') name): string {
     return this.appService.getHelloWithName(name);
   }
+
+  /**
+   * Say hello using specified name 
+   * @param name Name to be displayed
+   */
+  @Get('headers')
+  getHeaders(@Headers() headers): string {
+    return headers;
+  }
 }
