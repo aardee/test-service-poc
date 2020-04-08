@@ -10,7 +10,7 @@ cat <<EOF > service.rendered.json
   "Port": 3002,
   "Check": {
     "Method": "GET",
-    "HTTP": "http://${POD_IP}:3002/health",
+    "HTTP": "http://${POD_IP}:3002/apis/test/health",
     "Interval": "1s"
   }
 }
