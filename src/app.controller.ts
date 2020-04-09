@@ -25,6 +25,7 @@ export class AppController {
    */
   @Get('headers')
   getHeaders(@Headers() headers): string {
+    console.log("IN TEST_SERVICE::headers")
     return headers;
   }
 }
